@@ -66,6 +66,10 @@ h1, h3 {
     text-align: center;
 }
 
+.additional-info {
+    font-style: italic;
+}
+
 @media only screen and (max-width: 600px) {
     .left-panel, .right-panel {
         width: 100%;

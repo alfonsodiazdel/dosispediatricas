@@ -12,7 +12,7 @@ export default function Dropdown(props) {
 
     return (
         <div>
-            <h3>Seleccione medicamento</h3>
+            <h3>Medicamento (mg/ml)</h3>
             <div className='dropdown'>
                 <select className='dropbtn' onChange={(e) => setSelectedOption(e.target.value)} value={selectedOption}>
                     {

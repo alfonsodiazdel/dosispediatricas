@@ -43,13 +43,16 @@ function App() {
         <div className="left-panel">
           {
             drugs.length > 0
-              ? <Dropdown options={drugs} setSelectedDrug={setSelectedDrug}></Dropdown>
+              ? <div>
+                <Dropdown options={drugs} setSelectedDrug={setSelectedDrug}></Dropdown>
+                <span className='additional-info'>{selectedDrug.pediatric_dose} mg/kg</span>
+              </div>
               : <p>Cargando informacion</p>
           }
         </div>
         <div className="right-panel">
           <div>
-            <h3>Introduzca el Peso (kg)</h3>
+            <h3>Peso (kg)</h3>
             <input
               className='weight'
               type="number"
@@ -64,6 +67,7 @@ function App() {
         <h3 className=''>Resultado</h3>
         <p className="dose">Dosis: {pediatricDose.toFixed(2)} ml</p>
       </div>
+
     </div>
   );
 }
