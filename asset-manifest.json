@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/dosispediatricas/static/css/main.38f248d3.css",
-    "main.js": "/dosispediatricas/static/js/main.d0d3154d.js",
+    "main.css": "/dosispediatricas/static/css/main.460b0593.css",
+    "main.js": "/dosispediatricas/static/js/main.419df87a.js",
     "static/js/787.4788265d.chunk.js": "/dosispediatricas/static/js/787.4788265d.chunk.js",
     "index.html": "/dosispediatricas/index.html",
-    "main.38f248d3.css.map": "/dosispediatricas/static/css/main.38f248d3.css.map",
-    "main.d0d3154d.js.map": "/dosispediatricas/static/js/main.d0d3154d.js.map",
+    "main.460b0593.css.map": "/dosispediatricas/static/css/main.460b0593.css.map",
+    "main.419df87a.js.map": "/dosispediatricas/static/js/main.419df87a.js.map",
     "787.4788265d.chunk.js.map": "/dosispediatricas/static/js/787.4788265d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.38f248d3.css",
-    "static/js/main.d0d3154d.js"
+    "static/css/main.460b0593.css",
+    "static/js/main.419df87a.js"
   ]
 }
