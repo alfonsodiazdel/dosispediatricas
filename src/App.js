@@ -34,24 +34,24 @@ function App() {
 
   return (
     <div className="App">
-      <div class='title'>
+      <div className='title'>
         <h1>Dosis Pediátricas</h1>
         <h3>Calculadora</h3>
       </div>
 
-      <div class="panel-container">
-        <div class="left-panel">
+      <div className="panel-container">
+        <div className="left-panel">
           {
             drugs.length > 0
               ? <Dropdown options={drugs} setSelectedDrug={setSelectedDrug}></Dropdown>
               : <p>Cargando informacion</p>
           }
         </div>
-        <div class="right-panel">
+        <div className="right-panel">
           <div>
             <h3>Introduzca el Peso (kg)</h3>
             <input
-              class='weight'
+              className='weight'
               type="number"
               value={weight}
               onChange={(e) => setWeight(e.target.value)}
@@ -59,9 +59,10 @@ function App() {
           </div>
         </div>
       </div>
-
-      <div class='pediatric-dose'>
-        <p class="dose">Dosis: {pediatricDose} ml</p>
+      
+      <div className='pediatric-dose'>
+        <h3 className=''>Resultado</h3>
+        <p className="dose">Dosis: {pediatricDose.toFixed(2)} ml</p>
       </div>
     </div>
   );

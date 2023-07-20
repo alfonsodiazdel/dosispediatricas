@@ -3,7 +3,7 @@
 .dropdown select.dropbtn {
     background-color: #2c9780; /* Color de fondo azul */
     color: rgb(255, 255, 255);
-    
+    text-align: center;
     padding: 12px;
     font-size: 18px;
     border: none;

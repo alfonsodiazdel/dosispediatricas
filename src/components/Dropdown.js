@@ -13,8 +13,8 @@ export default function Dropdown(props) {
     return (
         <div>
             <h3>Seleccione medicamento</h3>
-            <div class='dropdown'>
-                <select class='dropbtn' onChange={(e) => setSelectedOption(e.target.value)} value={selectedOption}>
+            <div className='dropdown'>
+                <select className='dropbtn' onChange={(e) => setSelectedOption(e.target.value)} value={selectedOption}>
                     {
                         props.options.map(option => <option value={option.id} label={option.name} key={option.id}></option>)
                     }

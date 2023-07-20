@@ -19,11 +19,12 @@ h1, h3 {
     display: flex;
     align-content: center;
     align-items: center;
-}
+    flex-wrap: wrap;
 
+}
 .left-panel, .right-panel {
-    width: 50%;
     text-align: center;
+    width: 50%;
 }
 
 .pediatric-dose {
@@ -33,6 +34,7 @@ h1, h3 {
     align-items: center;
     text-align: center;
     justify-content: center;
+    flex-wrap: wrap;
 }
 
 .dose {
@@ -44,6 +46,10 @@ h1, h3 {
     font-size: 18px;
 }
 
+.pediatric-dose h3 {
+    width: 100%;
+    margin-bottom: -.2%;
+}
 /* Input*/
 
 .weight {
@@ -54,7 +60,14 @@ h1, h3 {
     padding: 12px;
     font-size: 18px;
     border-radius: 5px;
-    width: 55%;
+    width: 53%;
     outline: none;
     appearance: none;
+    text-align: center;
 }
+
+@media only screen and (max-width: 600px) {
+    .left-panel, .right-panel {
+        width: 100%;
+    }
+  }
