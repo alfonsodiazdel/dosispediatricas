@@ -25,7 +25,7 @@ function App() {
 
   const calculatePediatricDose = () => {
     const dose = ((weight * selectedDrug.pediatric_dose) * selectedDrug.ml) / selectedDrug.mg
-    setPediatricDose(dose);
+    setPediatricDose(dose.toFixed(2));
   }
 
   useEffect(() => {
@@ -65,7 +65,7 @@ function App() {
       
       <div className='pediatric-dose'>
         <h3 className=''>Resultado</h3>
-        <p className="dose">Dosis: {pediatricDose.toFixed(2)} ml</p>
+        <p className="dose">Dosis: {pediatricDose} ml</p>
       </div>
 
     </div>
