@@ -63,7 +63,6 @@ function App() {
       <div class='pediatric-dose'>
         <p class="dose">Dosis: {pediatricDose} ml</p>
       </div>
-
     </div>
   );
 }
